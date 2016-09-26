@@ -1,0 +1,30 @@
+body {
+  background: pink;
+  color: blue;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: dodgerblue;
+}
+
+/*tag selector*/
+p {
+  background: green;
+  color: turquoise;
+}
+
+/*id selector*/
+#post-title {
+  color: red;
+}
+
+/*less specific than the id, so it doesn't get applied*/
+h2 {
+  color: pink;
+}
+
+/*class selector*/
+.post-paragraph {
+  color: yellow;
+}
