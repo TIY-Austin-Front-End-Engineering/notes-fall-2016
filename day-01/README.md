@@ -104,6 +104,6 @@
   - change the sub-domain to anything you like, just keep the `surge.sh` at the end.
 
 ## Resources
-[HTML tag reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
-[CSS zen garden](http://www.csszengarden.com/)
-[CSS property reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+- [HTML tag reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+- [CSS zen garden](http://www.csszengarden.com/)
+- [CSS property reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
