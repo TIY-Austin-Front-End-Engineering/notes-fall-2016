@@ -62,6 +62,7 @@ Get in pairs and work together to build an HTML tree for the AirBnB website. Be 
 			- don't respect you or your request that they be a particular height or width or top and bottom margin
 		- examples: span, a, img, input, button
 	- box model
+		![](box-model.jpg)
 		- everything in HTML is a box made up of:
 			- content: defined by height and width. the inner most content area of a box
 			- padding: the space between the content and it's border.
