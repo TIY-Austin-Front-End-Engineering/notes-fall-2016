@@ -14,8 +14,6 @@ for (let i = 1; i < 45; i++) {
 
 ## Challenge
 
-## Objectives
-
 ## Notes
 
 ## Resources

@@ -1,0 +1,70 @@
+body {
+	background: pink;
+	margin: 0;
+}
+
+header {
+	background: dodgerblue;
+	width: 50%;
+}
+
+main {
+	background: turquoise;
+	width: 50%;
+	height: 150px;
+}
+
+div {
+	background: green;
+}
+
+a {
+	background: orange;
+/*width is ignored bc this is an inline element*/
+	width: 100%;
+	display: block;
+}
+
+
+section {
+	background: white;
+	padding: 5px;
+	border: solid 5px black;
+	margin: 5px;
+	height: 39px;
+}
+
+.inline-block-example section {
+	display: inline-block;
+	margin: 0;
+	width: 20%;
+	height: auto;
+	box-sizing: border-box;
+}
+
+.float-example section {
+	width: 25%;
+	box-sizing: border-box;
+	margin: 0;
+	height: auto;
+	float: left;
+}
+
+/*parents of floated children cannot find their children*/
+/*clearfix hack helps parents find their children*/
+.float-example::after {
+	display: block;
+	clear: both;
+	content: '';
+}
+
+/*to center inline elements within a block level element: */
+.centering-example {
+	text-align: center;
+}
+
+/*to center a block level element: */
+.centered {
+	width: 50%;
+	margin: 0 auto;
+}
