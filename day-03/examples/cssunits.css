@@ -1,0 +1,55 @@
+header {
+	width: 50%;
+}
+
+nav {
+	width: 50vw;
+	margin: 0 auto;
+}
+
+li {
+	font-size: 1.5rem;
+	margin: 1em;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: pink;
+}
+
+ul li:first-child {
+	background: red;
+}
+
+
+ul li:nth-child(3) {
+	background: orange;
+}
+
+ul *:nth-child(2n + 2) {
+	background: green;
+}
+
+ul *:nth-of-type(2n + 2) {
+	background: blue;
+}
+
+ul li:last-child {
+	background: turquoise;
+}
+
+/*this doesn't work bc it's not as specific*/
+ul li {
+	background: green;
+}
+
+.vertical-align span {
+	vertical-align: top;
+}
+
+.vertical-align img:first-of-type {
+	vertical-align: middle;
+}

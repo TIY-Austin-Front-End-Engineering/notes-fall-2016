@@ -1,0 +1,39 @@
+.static {
+	background: pink;
+}
+
+.relative {
+	background: orange;
+	position: relative;
+	top: .7rem;
+}
+
+.fixed {
+	background: green;
+	position: fixed;
+	bottom: .7rem;
+	right: .7rem;
+}
+
+.absolute {
+	background: turquoise;
+	position: absolute;
+	top: 1rem;
+}
+
+.parent {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	border: 1px solid blue;
+}
+
+.corner-box {
+	position: absolute;
+	height: 10px;
+	width: 10px;
+	background: black;
+	position: absolute;
+	bottom: -10px;
+	right: 5%;
+}
