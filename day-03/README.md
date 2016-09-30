@@ -67,18 +67,5 @@ Recreate the following using HTML and CSS. You can use Codepen, and work in pair
 			- top left bottom right refer to the NEAREST PARENT that is NOT STATIC (if there isn't one it will be the body)
 - pixel perfect
 	- the concept that your web project is exactly the same, down to the pixel, as the original designed image.
-- keyboard shortcuts
-	- ctrl d - forward delete
-	- ctrl a - jump to the beginning of a line
-	- ctrl e - jump to the end of a line
-	- ctrl k - delete an entire line
-	- ctrl p - move cursor up
-	- ctrl n - move cursor down
-	- ctrl f - move cursor forward
-	- ctrl b - move cursor back
-	- cmd shift d - duplicates a line (text editor)
-	- ctrl shift m - markdown preview (text editor)
-	- cmd w - close a tab
-	- cmd shift w - closes a window
-	- cmd shift [ or ] - move between tabs
+	
 ## Resources

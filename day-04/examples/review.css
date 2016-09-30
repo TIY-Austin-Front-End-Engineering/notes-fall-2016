@@ -1,0 +1,35 @@
+body {
+	text-decoration: none;
+}
+
+.nav-item * {
+	color: orange;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+}
+
+.nav-item img {
+	vertical-align: middle
+}
+
+article {
+	background: #E8E8E8;
+	/*padding-top: 1.5rem;
+	padding-right: 2rem;
+	padding-bottom: 1.5rem;
+	padding-left: 2rem;*/
+
+	/*padding: 1.5rem 2rem 1.5rem 2rem;*/
+
+	/*padding: 2rem;
+	padding-top: 1.5rem;*/
+
+	padding: 1.5rem 2rem;
+
+	/*specify top and bottom but let left and right be the same*/
+	padding: 1.5rem 2rem 2rem;
+}
