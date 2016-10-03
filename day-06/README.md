@@ -95,8 +95,8 @@ Work in pairs to create as many different shapes as you can using one div for ea
 		- this means it is kind of the opposite of our .gitignore file.
 
 ## Resources
-[My rhombus example](https://codepen.io/nicerhugs/pen/pEdJNb)
-[CSS shapes](https://css-tricks.com/examples/ShapesOfCSS/)
-[Single Div Art](http://a.singlediv.com/)
-[Sass Nesting guidelines](http://thesassway.com/beginner/the-inception-rule)
-[Git ignore templates](https://www.gitignore.io/)
+- [My rhombus example](https://codepen.io/nicerhugs/pen/pEdJNb)
+- [CSS shapes](https://css-tricks.com/examples/ShapesOfCSS/)
+- [Single Div Art](http://a.singlediv.com/)
+- [Sass Nesting guidelines](http://thesassway.com/beginner/the-inception-rule)
+- [Git ignore templates](https://www.gitignore.io/)
