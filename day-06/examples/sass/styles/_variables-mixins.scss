@@ -1,0 +1,14 @@
+// variables
+
+$color-primary: #083451;
+
+$border-basic: solid blue 3px;
+$border-narrow: solid blue 1px;
+
+// mixins
+
+@mixin right-teardrop($curve-size, $background-color) {
+	border-radius: $curve-size;
+	border-bottom-right-radius: 0px;
+	background: $background-color;
+}

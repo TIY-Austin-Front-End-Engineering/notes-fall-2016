@@ -1,0 +1,25 @@
+body {
+  background: pink; }
+
+header {
+  padding: 2rem;
+  border-radius: 3rem;
+  border-bottom-right-radius: 0px;
+  background: #083451; }
+  header a {
+    text-decoration: none;
+    color: red;
+    border: solid blue 1px; }
+  header .primary-nav a {
+    color: white; }
+  header:hover a {
+    text-shadow: 3px 5px 5px black; }
+
+.primary-post {
+  color: #083451; }
+  .primary-post p {
+    border-radius: 2rem;
+    border-bottom-right-radius: 0px;
+    background: #106DB3; }
+
+/*# sourceMappingURL=main.css.map */

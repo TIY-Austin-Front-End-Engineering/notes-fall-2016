@@ -1,0 +1,21 @@
+header {
+	// background: $color-primary;
+	padding: 2rem;
+	@include right-teardrop(3rem, $color-primary);
+
+	a {
+		text-decoration: none;
+		color: red;
+		border: $border-narrow;
+	}
+
+	.primary-nav {
+		a {
+			color: white;
+		}
+	}
+
+	&:hover a {
+		text-shadow: 3px 5px 5px black;
+	}
+}

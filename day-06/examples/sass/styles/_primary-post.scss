@@ -1,0 +1,6 @@
+.primary-post {
+	color: $color-primary;
+	p {
+		@include right-teardrop(2rem, #106DB3)
+	}
+}
