@@ -54,15 +54,19 @@ Work in pairs to create as many different shapes as you can using one div for ea
 		- import it as the first partial we import in the main
 		- choose semantic names, and not names based on colors, ect.
 		- declare variables like this:
+
 		```scss
 		$color-primary: #083451;
 		```
+
 		- use variables like this:
+
 		```scss
 		header {
 			background: $color-primary;
 		}
 		```
+
 		- if your variable is imported AFTER your ruleset that uses it, it WILL NOT work. This is why we import the variables at the very top of our main.scss file.
   - mixins
 		- storage for a set of rules (one or more entire lines of css)
