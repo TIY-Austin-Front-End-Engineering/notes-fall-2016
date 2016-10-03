@@ -67,18 +67,21 @@ Work in pairs to create as many different shapes as you can using one div for ea
   - mixins
 		- storage for a set of rules (one or more entire lines of css)
 		- declare mixins like this:
+
 		```scss
 		@mixin right-teardrop($curve-size, $background-color) {
 			border-radius: $curve-size;
 			border-bottom-right-radius: 0px;
 			background: $background-color;
 		}
-
 		```
+
 		- use variables like this:
+
 		```scss
 		@include right-teardrop(3rem, $color-primary);
 		```
+
 		- inside the parentheses are optional 'local variables' which you can use within th mixin
 			- if you use local variables, you must be sure to supply a value to the mixin when you include it.
 			- the order of the local variables matters
