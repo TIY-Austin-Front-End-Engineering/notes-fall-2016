@@ -1,0 +1,37 @@
+.product-item {
+	margin-bottom: 2rem;
+
+	li {
+		float: left;
+		width: 20%;
+		border: .2rem solid $color-primary;
+		border-left: 0;
+		box-sizing: border-box;
+	}
+
+	li:first-child {
+		border-left: .2rem solid $color-primary;
+	}
+
+	.product {
+		border: .2rem solid $color-primary;
+		border-bottom: 0;
+		text-align: center;
+		padding: 2rem;
+	}
+
+	.product-opts::after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+
+	.product-name {
+		margin: 0;
+		display: inline-block;
+	}
+
+	.product-price {
+		float: right;
+	}
+}

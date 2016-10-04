@@ -1,3 +1,4 @@
-body {
-	background: pink;
-}
+@import 'variables-mixins';
+@import 'baseline';
+@import 'header';
+@import 'product';
