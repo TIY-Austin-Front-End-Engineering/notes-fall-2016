@@ -6,10 +6,10 @@
 ## Review
 
 ## Challenge
-
-## Objectives
+Recreate the following using HTML and CSS
+![](talking-bubble.png)
 
 ## Notes
+- CSS transitions
 
 ## Resources
-    
