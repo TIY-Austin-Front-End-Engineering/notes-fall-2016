@@ -10,10 +10,10 @@
 
 ### Week 2: SASS and JS Introductions
 * [Day 06 - Sass setup, variables, nesting, mixins](/day-06)
+* [Day 07 - Review](/day-07)
+* [Day 08 - Grid systems, Sass libraries, Git Partner Fow](/day-08)
 
-<!-- * [Day 07 - Grid systems, Sass libraries, Git Partner Flow](/day-07) -->
-<!-- * [Day 08 - JS Intro](/day-08) -->
-<!-- * [Day 09 - Conditional logic, Event Listeners](/day-09) -->
+<!-- * [Day 09 - JS Intro, Conditional logic, Event Listeners](/day-09) -->
 <!--  -->
 <!-- ### Week 3: JS data manipulation and jQuery -->
 <!-- * [Day 11 - Functions, Built in Objects/methods, value vs. reference](/day-11) -->

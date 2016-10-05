@@ -24,8 +24,8 @@ ul {
     border: 0.2rem solid #47A3DA;
     border-left: 0;
     box-sizing: border-box; }
-  .product-item li:first-child {
-    border-left: 0.2rem solid #47A3DA; }
+    .product-item li:first-child {
+      border-left: 0.2rem solid #47A3DA; }
   .product-item .product {
     border: 0.2rem solid #47A3DA;
     border-bottom: 0;
@@ -40,5 +40,12 @@ ul {
     display: inline-block; }
   .product-item .product-price {
     float: right; }
+
+@media (min-width: 740px) {
+  .product-item {
+    float: left;
+    width: calc(50% - 1rem); }
+    .product-item:nth-child(2n + 1) {
+      margin-right: 2rem; } }
 
 /*# sourceMappingURL=main.css.map */

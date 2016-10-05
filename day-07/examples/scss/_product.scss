@@ -7,10 +7,10 @@
 		border: .2rem solid $color-primary;
 		border-left: 0;
 		box-sizing: border-box;
-	}
 
-	li:first-child {
-		border-left: .2rem solid $color-primary;
+		&:first-child {
+			border-left: .2rem solid $color-primary;
+		}
 	}
 
 	.product {
@@ -33,5 +33,16 @@
 
 	.product-price {
 		float: right;
+	}
+}
+
+@media (min-width: 740px) {
+	.product-item {
+		float: left;
+		width: calc(50% - 1rem);
+
+		&:nth-child(2n + 1) {
+			margin-right: 2rem;
+		}
 	}
 }

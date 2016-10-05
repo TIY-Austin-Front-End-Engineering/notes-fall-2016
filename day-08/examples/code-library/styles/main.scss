@@ -1,0 +1,48 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+
+body {
+	background: pink;
+}
+
+.only-so-wide {
+	width: rem(50);
+	background: blue;
+	height: 50px;
+}
+
+main {
+	@include outer-container(75%)
+}
+
+.primary-post {
+	@include span-columns(9);
+}
+
+.images {
+	img {
+		@include span-columns(3);
+
+		&:nth-child(4n) {
+			@include omega();
+		}
+	}
+}
+
+.sidebar {
+	@include span-columns(3);
+}
+
+.post-footer {
+	.three-of-nine {
+		@include span-columns(3 of 9);
+		color: white;
+		background: blue;
+	}
+
+	.four {
+		@include span-columns(4);
+		color: white;
+		background: blue;
+	}
+}

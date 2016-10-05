@@ -1,0 +1,31 @@
+button {
+	background: #083451;
+	color: #fff;
+	border: 2px solid #083451;
+	border-radius: 5px;
+	padding: 0px;
+	transition: all .3s;
+	/*transition: color 3s, padding .5s;*/
+	/*opacity: 0;*/
+	box-shadow: 2px 2px 0 1px #5E686F;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+/*button:hover {
+	padding: 10px;
+	opacity: 1;
+	background: #fff;
+	color: #083451;
+}*/
+
+button:focus {
+	outline: none;
+}
+
+button:active {
+	top: 2px;
+	left: 2px;
+	box-shadow: 0 0 0 0 #5E686F;
+}
