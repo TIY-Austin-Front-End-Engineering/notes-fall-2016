@@ -83,11 +83,6 @@ work in pairs and use the following HTML to create a dropdown menu. By default o
 		- + is an "overloaded" operator, which means it can do more than one thing.
 	- boolean operators
 		- comparative operators : `>` `<` `>=` `<=` `===` `!==`
-		- `||` - is ANYTHING in the list true?
-			- or, the first true thing OR the last false thing
-		- `&&` - is EVERYTHING in the list true?
-		 	- and, the last true thing OR the first false thing
-			- these ones are weird, bc they don't return a particular type
 		- type coercion - coercing or making a type change types
 			- we can coerce into ANY of the 3 basic primitive types (number, boolean, string)
 			- `Number(something)` coerces `something` to a number
@@ -110,6 +105,9 @@ work in pairs and use the following HTML to create a dropdown menu. By default o
 			- `.` is called a "property accessor"
  	- and functions (the code that does stuff)
 - DOM - document object model
-	- our html document is represented in JS as a JS object.
+	- our html document is represented in JS as a JS object. it's literally called `document`
+	- the document and ALL the elements of our document have an object representation
+	- access elements from the DOM using `document.querySelector('cssSelector')`
+	- inspect them in the console using `console.dir()`
 
 ## Resources
