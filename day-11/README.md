@@ -61,6 +61,7 @@ See assignment in TIYO
 			// if none of the truth tests pass, this code will run
 		}
 		```
+
 	- truthy/falsey
 		- the code inside the () of the if statement is evaluated down and then coerced into a boolean.
 			- if the boolean is true, the code block runs,
