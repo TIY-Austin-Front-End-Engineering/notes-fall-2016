@@ -1,0 +1,30 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+
+body {
+	background: pink;
+}
+
+main {
+	@include outer-container;
+
+	&> div {
+		@include clearfix();
+	}
+}
+
+.special-topic {
+	@include span-columns(4);
+	@include omega(3);
+
+	background: turquoise;
+}
+
+.boxes {
+	@include span-columns(6);
+	@include omega(2n);
+
+	height: 50px;
+	background: dodgerblue;
+	margin-top: $gutter;
+}
