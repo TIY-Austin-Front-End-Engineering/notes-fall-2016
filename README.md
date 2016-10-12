@@ -12,12 +12,12 @@
 * [Day 06 - Sass setup, variables, nesting, mixins](/day-06)
 * [Day 07 - Review](/day-07)
 * [Day 08 - Grid systems, Sass libraries, Git Partner Fow](/day-08)
+* [Day 09 - JS Intro, Conditional logic, Event Listeners](/day-09)
 
-<!-- * [Day 09 - JS Intro, Conditional logic, Event Listeners](/day-09) -->
-<!--  -->
-<!-- ### Week 3: JS data manipulation and jQuery -->
-<!-- * [Day 11 - Functions, Built in Objects/methods, value vs. reference](/day-11) -->
-<!-- * [Day 12 - location.hash, Loops, forEach, filter, map reduce](/day-12) -->
+### Week 3: JS data manipulation and jQuery
+* [Day 11 - Functions, Built in Objects/methods, value vs. reference](/day-11)
+* [Day 13 - functions, loops, ](/day-13)
+
 <!-- * [Day 13 - forEach, filter, map, reduce, jquery](/day-13) -->
 <!-- * [Day 14 - gh-pages, SPAs, data attribute](/day-14) -->
 <!--  -->
