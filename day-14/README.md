@@ -47,9 +47,15 @@ HINT: you will need the special arguments keyword
 	- .reduce()
 		- returns a single type of our choosing (string, number, array, object)
 		- we build it over time, incrementally
+		- the reduce method takes 2 arguments (a callback and an initial value)
+		- the callback receives 4 arguments (as opposed to 3 like the others) - return value so far, the current item, index, and array)
+		- each iteration, the return value is passed in as the first argument.
+		- on the FIRST iteration, the initial value is passed in as the first argument
+		- on the LAST iteration, the return value is the return value of the entire reduce call.
 - jQuery
 	- javascript library used for DOM manipulation, event handling, and ajax requests
 	- include it in our project with CDN and a script tag
+	- see js file for examples of use
 
 
 
