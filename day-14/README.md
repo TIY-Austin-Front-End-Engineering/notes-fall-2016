@@ -23,6 +23,7 @@ HINT: you will need the special arguments keyword
 ## Notes
 - variadic functions - a variable number of arguments are passed into a function, and you don't define each one specifically
 - Array methods - looping array methods, do something for each element in an array
+<img src="map-reduce.png" width="50%">
 	- .forEach() - doesn't give anything back at the end, it's just side effects
 		- do something for each item in the array
 			- if we want to put something in the DOM for each element in an array
