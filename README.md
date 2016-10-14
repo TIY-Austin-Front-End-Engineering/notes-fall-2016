@@ -17,10 +17,9 @@
 ### Week 3: JS data manipulation and jQuery
 * [Day 11 - Functions, Built in Objects/methods, value vs. reference](/day-11)
 * [Day 13 - functions, loops, ](/day-13)
+* [Day 14 - forEach, filter, map, reduce, jquery](/day-14)
+* [Day 15 - SPAs](/day-15)
 
-<!-- * [Day 14 - forEach, filter, map, reduce, jquery](/day-14) -->
-<!-- * [Day 15 - SPAs, data attribute](/day-15) -->
-<!--  -->
 <!-- ### Week 4: AJAX, Constructors and Prototypes -->
 <!-- * [Day 17 - AJAX GET](/day-17) -->
 <!-- * [Day 18 - AJAX POST PUT DELETE](/day-18) -->
