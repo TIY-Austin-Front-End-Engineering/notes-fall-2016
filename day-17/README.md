@@ -48,5 +48,5 @@ make a button that says "click me!" and, when clicked, says "loading..." and bec
 			- include in settings the following key/value: `dataType: jsonp`
 
 ## Resources
-[The Event Loop Video](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
-[Ajax settings object docs](http://api.jquery.com/jquery.ajax/)
+- [The Event Loop Video](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+- [Ajax settings object docs](http://api.jquery.com/jquery.ajax/)
