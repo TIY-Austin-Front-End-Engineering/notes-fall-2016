@@ -20,8 +20,9 @@
 * [Day 14 - forEach, filter, map, reduce, jquery](/day-14)
 * [Day 15 - SPAs](/day-15)
 
-<!-- ### Week 4: AJAX, Constructors and Prototypes -->
-<!-- * [Day 17 - AJAX GET](/day-17) -->
+### Week 4: AJAX, Constructors and Prototypes
+* [Day 17 - AJAX GET](/day-17)
+
 <!-- * [Day 18 - AJAX POST PUT DELETE](/day-18) -->
 <!-- * [Day 19 - Constructors](/day-19) -->
 <!-- * [Day 20 - Constructors and Prototypes](/day-20) -->
