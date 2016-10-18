@@ -34,8 +34,8 @@ names("George Washington, Bryan Adams, John Adams, Kanye West")
 			- `plural-noun/id` for the home of ONE object
 				- PUT (edit), DELETE or GET for that particular object
 			- for tiny pizza server
-				- `http://tiny-za-server.herkouapp.com/collections/<plural-noun>`
-				- `http://tiny-za-server.herkouapp.com/collections/<plural-noun>/<id>`
+				- `http://tiny-za-server.herokuapp.com/collections/<plural-noun>`
+				- `http://tiny-za-server.herokuapp.com/collections/<plural-noun>/<id>`
 - app building steps:
 	- sketch out my app
 		- draw each page

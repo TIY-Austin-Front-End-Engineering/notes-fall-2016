@@ -26,25 +26,25 @@
 
 <!-- * [Day 19 - Constructors](/day-19) -->
 <!-- * [Day 20 - Constructors and Prototypes](/day-20) -->
-<!--  -->
+
 <!-- ### Week 5: Backbone -->
 <!-- * [Day 21 - Build Tools, NPM, ES6](/day-21) -->
 <!-- * [Day 22 - Review](/day-22) -->
 <!-- * [Day 23 - Underscore, Backbone Models](/day-23) -->
 <!-- * [Day 24 - Backbone Models, Collections](/day-24) -->
-<!--  -->
+
 <!-- ### Week 6: BaaS, Authentication, Backbone Views -->
 <!-- * [Day 26 - BaaS, Authentication](/day-26) -->
 <!-- * [Day 27 - Backbone Views](/day-27) -->
 <!-- * [Day 28 - Backbone Views](/day-28) -->
 <!-- * [Day 29 - Data Store, Group Project/Agile](/day-29) -->
-<!--  -->
+
 <!-- ### Week 7: React -->
 <!-- * Day 31 - Review/Rest -->
 <!-- * [Day 32 - React Intro: Setup, component basics, router basics](/day-32) -->
 <!-- * [Day 33 - React Cont'd: Router, Component Lifecycle, Ajax](/day-33) -->
 <!-- * [Day 34 - React Cont'd: Using a Store with React](/day-34) -->
-<!--  -->
+
 <!-- ### Week 8: React and Testing -->
 <!-- * [Day 36 - Index Route, React State (like button 4 ways)](/day-36) -->
 <!-- * [Day 37 - Intro to Unit Testing, Review React Lifecycle Methods](/day-37) -->
