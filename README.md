@@ -24,8 +24,7 @@
 * [Day 16 - AJAX GET](/day-16)
 * [Day 17 - AJAX POST PUT DELETE](/day-17)
 * [Day 18 - Constructors](/day-18)
-
-<!-- * [Day 20 - Constructors and Prototypes](/day-20) -->
+* [Day 19 - Constructors and Prototypes](/day-19)
 
 <!-- ### Week 5: Backbone -->
 <!-- * [Day 21 - Build Tools, NPM, ES6](/day-21) -->
