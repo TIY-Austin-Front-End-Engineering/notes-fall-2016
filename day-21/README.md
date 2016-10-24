@@ -84,8 +84,6 @@ forEach([1,2,3], add5);
 		- replacing the `var` keyword
 		- `const` is special because it cannot be reassigned
 		- they introduce a new scope - code blocks scope
- 	- arrows
-
 
 ## Resources
 - [babel](http://babeljs.io/)
