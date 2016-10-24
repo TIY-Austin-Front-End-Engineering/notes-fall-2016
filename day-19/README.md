@@ -10,7 +10,7 @@
 	- everyone else clones the repo
 		-	clone button on github
 		- `git clone <copied url> <directory you want the project to live in>`
-	- view the diagram on [day 08](/day-08)
+		- view the diagram on [day 08](/day-08)
 - organize our files like this:
 	- function declarations at the top
 		- functions that are used within other functions should be declared ABOVE those functions

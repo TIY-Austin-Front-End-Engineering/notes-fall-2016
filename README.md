@@ -26,8 +26,9 @@
 * [Day 18 - Constructors](/day-18)
 * [Day 19 - Constructors and Prototypes](/day-19)
 
-<!-- ### Week 5: Backbone -->
-<!-- * [Day 21 - Build Tools, NPM, ES6](/day-21) -->
+### Week 5: Backbone
+* [Day 21 - Build Tools, NPM, ES6](/day-21)
+
 <!-- * [Day 22 - Review](/day-22) -->
 <!-- * [Day 23 - Underscore, Backbone Models](/day-23) -->
 <!-- * [Day 24 - Backbone Models, Collections](/day-24) -->
