@@ -30,8 +30,7 @@
 * [Day 21 - Build Tools, NPM, ES2015](/day-21)
 * [Day 22 - ES2015 and Backbone Router](/day-22)
 * [Day 23 - Backbone Models and Collections](/day-23)
-
-<!-- * [Day 24 - Backbone Models, Collections](/day-24) -->
+* [Day 24 - Backbone Events](/day-24)
 
 <!-- ### Week 6: BaaS, Authentication, Backbone Views -->
 <!-- * [Day 26 - BaaS, Authentication](/day-26) -->
