@@ -74,3 +74,4 @@ isValid('5000000000000000') // false
 		-	examples: firebase, parse, backendless, Kinvey
 
 ## Resources
+- [backendless REST api docs](https://backendless.com/documentation/users/rest/users_overview.htm)
