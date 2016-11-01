@@ -4,12 +4,6 @@
 # Day 27
 
 ## Review
-
-## Challenge
-
-## Objectives
-
-## Notes
+- login and CRUD with backendless
 
 ## Resources
-    

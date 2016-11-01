@@ -34,8 +34,8 @@
 
 ### Week 6: BaaS, Authentication, Backbone Views
 * [Day 26 - BaaS, Authentication](/day-26)
+* [Day 27 - Review](/day-27)
 
-<!-- * [Day 27 - Backbone Views](/day-27) -->
 <!-- * [Day 28 - Backbone Views](/day-28) -->
 <!-- * [Day 29 - Data Store, Group Project/Agile](/day-29) -->
 
