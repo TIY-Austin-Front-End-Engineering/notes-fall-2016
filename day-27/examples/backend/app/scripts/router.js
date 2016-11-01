@@ -12,6 +12,21 @@ let session = new Session();
 let posts = new Posts();
 let $container = $('.container');
 
+// intercept all ajax requests and run this callback first
+$(document).ajaxSend((evt, xhr, opts) => {
+	console.log('interception!');
+	// opts is the jquery settings object. it is read only, but we could use it if we needed to do different things based on what request we are making
+	console.log(opts.type);
+
+	// xhr is the raw ajax request, and we can modify it to make changes, like this example that sets headers:
+	xhr.setRequestHeader('application-id', config.appId)
+	xhr.setRequestHeader('secret-key', config.secret)
+	xhr.setRequestHeader('application-type', 'REST')
+	if (session.get('user-token')) {
+		xhr.setRequestHeader('user-token', session.get('user-token'));
+	}
+})
+
 var Router = Backbone.Router.extend({
 	routes: {
 		''		 			 : 'home',
@@ -49,14 +64,7 @@ var Router = Backbone.Router.extend({
 		if (!session.get('user-token')) {
 			this.navigate('login', {trigger: true})
 		} else {
-			posts.fetch({
-				headers: {
-					'application-id': config.appId,
-					'secret-key': config.secret,
-					'application-type': 'REST',
-					'user-token': session.get('user-token')
-				}
-			});
+			posts.fetch();
 			$container.empty();
 			$container.append(postsList(posts));
 		}

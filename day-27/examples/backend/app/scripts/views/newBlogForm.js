@@ -15,12 +15,12 @@ export default function(posts, session) {
 		const title = form.find('#title').val();
 		const body = form.find('#body').val();
 		posts.create({title, body},{
-			headers: {
-				'application-id': config.appId,
-				'secret-key': config.secret,
-				'application-type': 'REST',
-				'user-token': session.get('user-token')
-			}
+			// headers: {
+			// 	'application-id': config.appId,
+			// 	'secret-key': config.secret,
+			// 	'application-type': 'REST',
+			// 	'user-token': session.get('user-token')
+			// }
 		})
 	})
 	return form;

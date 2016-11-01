@@ -19,11 +19,6 @@ export default Backbone.Model.extend({
 			type: 'POST',
 			url: 'https://api.backendless.com/v1/users/register',
 			contentType: 'application/json',
-			headers: {
-				'application-id': config.appId,
-				'secret-key': config.secret,
-				'application-type': 'REST'
-			},
 			data: JSON.stringify({email, password}),
 			success: () => {
 				this.login(email, password)
@@ -35,11 +30,6 @@ export default Backbone.Model.extend({
 			type: 'POST',
 			url: 'https://api.backendless.com/v1/users/login',
 			contentType: 'application/json',
-			headers: {
-				'application-id': config.appId,
-				'secret-key': config.secret,
-				'application-type': 'REST'
-			},
 			data: JSON.stringify({login: email, password}),
 			success: (response) => {
 				this.set(response);
