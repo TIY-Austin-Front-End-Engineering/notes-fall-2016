@@ -8,7 +8,7 @@ const LoginForm = Backbone.View.extend({
 			<input value="jess@jess.com" id="email" type="email" placeholder="email">
 			<input value="password" id="password" type="password" placeholder="password">
 			<input id="submit" type="submit" value="login">
-			<div>${this.model.get('errorMessage')}</div>
+			<div>${this.model.get('errorMessage') || ''}</div>
 			Not a member? <a href="#register">Register here</a>
 		`
 	},
