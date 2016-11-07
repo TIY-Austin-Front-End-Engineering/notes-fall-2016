@@ -7,9 +7,16 @@
 
 ## Challenge
 
-## Objectives
-
 ## Notes
+- React Router
+	- installing
+	- basic use
+	- basic routes
+	- parameterized routes
+	- navigating
+		- links
+		- programmatic
+- `this.props.children`
+	- nested routes
 
 ## Resources
-    

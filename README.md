@@ -39,11 +39,12 @@
 * [Day 28 - Backbone Views](/day-28)
 * [Day 29 - More Backbone](/day-29)
 
-<!-- ### Week 7: React -->
-<!-- * Day 31 - Review/Rest -->
-<!-- * [Day 32 - React Intro: Setup, component basics, router basics](/day-32) -->
-<!-- * [Day 33 - React Cont'd: Router, Component Lifecycle, Ajax](/day-33) -->
-<!-- * [Day 34 - React Cont'd: Using a Store with React](/day-34) -->
+### Week 7: React
+* [Day 31 - React Intro: Setup, component basics](/day-31)
+
+<!-- * [Day 32 - React State, Component Lifecycle](/day-32) -->
+<!-- * [Day 33 - React Router](/day-33) -->
+<!-- * [Day 34 - AJAX aReact Cont'd: Using a Store with React](/day-34) -->
 
 <!-- ### Week 8: React and Testing -->
 <!-- * [Day 36 - Index Route, React State (like button 4 ways)](/day-36) -->
