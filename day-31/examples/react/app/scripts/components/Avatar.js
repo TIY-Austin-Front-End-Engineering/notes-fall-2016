@@ -8,10 +8,10 @@ const Avatar = React.createClass({
 	render() {
 		return (
 			<a href="#">
-				<img src={this.props.avatar}/>
+				<img src={this.props.avatar} />
 			</a>
-		)
+		);
 	}
-})
+});
 
 export default Avatar;
