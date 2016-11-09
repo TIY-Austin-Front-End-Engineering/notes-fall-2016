@@ -51,6 +51,8 @@ isPalindrome('whatever this is dumb') // false
 	- any react component that is not self closing renders the components it's wrapping when `this.props.children` is in its render function
 - ajax and state
 	- getting data INTO the app
-	- modifying data after it's there
+		- ajax indicates state! we should make sure we only are making ajax requests and setting up state in those top level, SMART container components (usually route level components)
+		- make ajax requests in `componentDidMount`
+		- set up initial state to house the server response
 
 ## Resources

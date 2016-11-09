@@ -41,9 +41,9 @@
 
 ### Week 7: React
 * [Day 31 - React Intro: Setup, component basics](/day-31)
+* [Day 32 - React State, Component Lifecycle](/day-32)
+* [Day 33 - React Router, ajax getting with React](/day-33)
 
-<!-- * [Day 32 - React State, Component Lifecycle](/day-32) -->
-<!-- * [Day 33 - React Router](/day-33) -->
 <!-- * [Day 34 - AJAX aReact Cont'd: Using a Store with React](/day-34) -->
 
 <!-- ### Week 8: React and Testing -->
