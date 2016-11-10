@@ -23,7 +23,10 @@
 		- no matter where you are in the component tree (how deep) ALWAYS reach out to the top level (store) to make changes to data
 			- this keeps the single source of truth principle
 		- maybe helpful to create custom functions on the collection or model to make it easier to do this work
-			- probably in your component you'll do something like `store.docs.markAsRead(this.props.doc._id)`
+			- probably in your component you'll do something like
+			```js
+			store.docs.markAsRead(this.props.doc._id)
+			```
 			- in your collection constructor you probably have something like
 			```js
 			markAsRead(id) {
