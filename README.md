@@ -43,8 +43,7 @@
 * [Day 31 - React Intro: Setup, component basics](/day-31)
 * [Day 32 - React State, Component Lifecycle](/day-32)
 * [Day 33 - React Router, ajax getting with React](/day-33)
-
-<!-- * [Day 34 - AJAX aReact Cont'd: Using a Store with React](/day-34) -->
+* [Day 34 - AJAX, Backbone, and React](/day-34)
 
 <!-- ### Week 8: React and Testing -->
 <!-- * [Day 36 - Index Route, React State (like button 4 ways)](/day-36) -->
