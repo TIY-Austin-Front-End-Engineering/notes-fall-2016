@@ -47,12 +47,12 @@
 
 <!-- ### Week 8: React and Testing -->
 <!-- * [Day 36 - Index Route, React State (like button 4 ways)](/day-36) -->
-<!-- * [Day 37 - Intro to Unit Testing, Review React Lifecycle Methods](/day-37) -->
-<!-- * [Day 38 - Recursion, Writing errors](/day-38) -->
-<!-- * [Day 39 - Promises](/day-39) -->
+<!-- * [Day 37 - Intro to Unit Testing](/day-37) -->
+<!-- * [Day 38 - Testing the DOM with React and Enzyme](/day-38) -->
+<!-- * [Day 39 - Agile](/day-39) -->
 
-<!-- ### Week 9: Review -->
-<!-- * [Day 41 - ](/day-41) -->
-<!-- * [Day 42 - ](/day-42) -->
-<!-- * [Day 43 - ](/day-43) -->
-<!-- * [Day 44 - ](/day-44) -->
+<!-- ### Week 9: Bonus topics -->
+<!-- * [Day 41 - Recursion](/day-41) -->
+<!-- * [Day 42 - Promises](/day-42) -->
+<!-- * [Day 43 - Flux features we don't have](/day-43) -->
+<!-- * [Day 44 - Syntax for days](/day-44) -->
