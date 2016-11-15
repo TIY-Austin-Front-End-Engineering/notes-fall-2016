@@ -45,9 +45,10 @@
 * [Day 33 - React Router, ajax getting with React](/day-33)
 * [Day 34 - AJAX, Backbone, and React](/day-34)
 
-<!-- ### Week 8: React and Testing -->
-<!-- * [Day 36 - Index Route, React State (like button 4 ways)](/day-36) -->
-<!-- * [Day 37 - Intro to Unit Testing](/day-37) -->
+### Week 8: React and Testing
+* [Day 36 - Callback Props (like button 4 ways)](/day-36)
+* [Day 37 - Intro to Unit Testing](/day-37)
+
 <!-- * [Day 38 - Testing the DOM with React and Enzyme](/day-38) -->
 <!-- * [Day 39 - Agile](/day-39) -->
 
@@ -55,4 +56,3 @@
 <!-- * [Day 41 - Recursion](/day-41) -->
 <!-- * [Day 42 - Promises](/day-42) -->
 <!-- * [Day 43 - Flux features we don't have](/day-43) -->
-<!-- * [Day 44 - Syntax for days](/day-44) -->

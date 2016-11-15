@@ -7,9 +7,6 @@
 
 ## Challenge
 
-## Objectives
-
 ## Notes
 
 ## Resources
-    
