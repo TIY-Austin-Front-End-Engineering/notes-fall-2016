@@ -7,12 +7,12 @@ import Like from '../../app/scripts/components/Like';
 describe('Like component', () => {
 	let spy;
 	let like;
-	before(() => {
-		spy = spyOnComponentMethod(Like, 'handleClick');
-	})
+
 	beforeEach(() => {
+		spy = spyOnComponentMethod(Like, 'handleClick');
 		like = shallow(<Like likes={2}/>)
 	});
+	
 	afterEach(() => {
 		spy.restore();
 	});
@@ -25,6 +25,11 @@ describe('Like component', () => {
 		expect(like.is('[value=2]')).to.equal(true);
 		like.setProps({likes: 4});
 		expect(like.is('[value=4]')).to.equal(true);
+	});
+
+	it('should call the click handler when clicked', () => {
+		like.simulate('click');
+		expect(spy.callCount).to.equal(1);
 	});
 
 	it('should call the click handler when clicked', () => {
