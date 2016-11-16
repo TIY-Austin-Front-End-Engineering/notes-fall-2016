@@ -13,6 +13,9 @@ describe('Like component', () => {
 	beforeEach(() => {
 		like = shallow(<Like likes={2}/>)
 	});
+	afterEach(() => {
+		spy.restore();
+	});
 
 	it('should be a button', () => {
 		expect(like.is('input[type="button"]')).to.equal(true);
@@ -31,7 +34,7 @@ describe('Like component', () => {
 		like.simulate('click');
 		expect(spy.callCount).to.equal(1);
 	});
-	
+
 });
 
 
