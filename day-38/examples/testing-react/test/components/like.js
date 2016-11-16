@@ -1,11 +1,15 @@
 import React from 'react';
 import {expect} from 'chai';
 import {shallow} from 'enzyme';
-import {spyOnComponentMethod, stubComponentMethod} from 'sinon-spy-react';
+import {spyOnComponentMethod} from 'sinon-spy-react';
 import Like from '../../app/scripts/components/Like';
 
 describe('Like component', () => {
+	let spy;
 	let like;
+	before(() => {
+		spy = spyOnComponentMethod(Like, 'handleClick');
+	})
 	beforeEach(() => {
 		like = shallow(<Like likes={2}/>)
 	});
@@ -24,12 +28,10 @@ describe('Like component', () => {
 	});
 
 	it('should call the click handler when clicked', () => {
-		let spy = stubComponentMethod(Like, 'handleClick');
 		like.simulate('click');
 		expect(spy.callCount).to.equal(1);
 	});
-
-
+	
 });
 
 
