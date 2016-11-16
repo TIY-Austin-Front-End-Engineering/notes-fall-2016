@@ -23,9 +23,6 @@ describe('Like component', () => {
 
 	it('should have a value that matches its likes prop', () => {
 		expect(like.is('[value=2]')).to.equal(true);
-	});
-
-	it('should have a value that matches its likes prop', () => {
 		like.setProps({likes: 4});
 		expect(like.is('[value=4]')).to.equal(true);
 	});
