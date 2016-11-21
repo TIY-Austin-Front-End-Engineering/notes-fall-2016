@@ -1,0 +1,5 @@
+
+export default {
+  appId: `EF01B736-5596-B0A8-FF3B-4DB102B63D00`,
+  secret: `7F956379-42A5-14BA-FFF8-39B8F54E6700`
+};
