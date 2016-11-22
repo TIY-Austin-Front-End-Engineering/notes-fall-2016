@@ -53,6 +53,7 @@
 
 ### Week 9: Bonus topics
 * [Day 41 - Review Backendless](/day-41)
+* [Day 42 - Relational Data](/day-42)
 
 <!-- * [Day 42 - Promises](/day-42) -->
 <!-- * [Day 43 - Flux features we don't have](/day-43) -->
