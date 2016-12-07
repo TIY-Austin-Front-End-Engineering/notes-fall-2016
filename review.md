@@ -3,3 +3,4 @@
 - Responsive design/layout
 - React Transitions
 - Flux
+- accessibility
