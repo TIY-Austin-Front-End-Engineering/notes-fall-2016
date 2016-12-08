@@ -58,3 +58,4 @@
 
 ### Week 11: Bonus topics
 * [Day 53 - Accessibility](/day-53)
+* [Day 53 - CSS transitions with React](/day-54)

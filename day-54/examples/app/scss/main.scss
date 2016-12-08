@@ -1,0 +1,26 @@
+.carousel {
+	position: relative;
+}
+
+.carousel-img {
+	position: absolute;
+	width: 100%;
+}
+
+.carousel-enter {
+	left: 100%;
+}
+
+.carousel-enter-active {
+	left: 0;
+	transition: left 2s;
+}
+
+.carousel-leave {
+	left: 0;
+}
+
+.carousel-leave-active {
+	left: -100%;
+	transition: left 1s;
+}
